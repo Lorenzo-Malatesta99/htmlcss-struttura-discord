@@ -1,0 +1,25 @@
+/* RESET RULES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    background-color: aqua;
+    padding: 10px 100px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.link-list{
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+} 
+section{
+    display: flex;
+}
+
+/* Debug */
