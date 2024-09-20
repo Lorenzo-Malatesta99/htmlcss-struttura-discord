@@ -4,13 +4,12 @@
     margin: 0;
     padding: 0;
 }
-
+/* header */
 .nav-container{
     background-color: aqua;
-    padding: 10px 100px;
+    padding: 10px 200px;
     display: flex;
     justify-content:space-between;
-    
 }
 
 .link-list{
@@ -20,6 +19,34 @@
 } 
 section{
     display: flex;
+    justify-content: center;
+    height: 450px;
+}
+.container{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    width: 500px;
 }
 
 /* Debug */
+header{
+    background-color: aquamarine;
+}
+section{
+    border: 2px solid red;
+    padding: 30px 200px;
+}
+.nav-container{
+    background-color: blanchedalmond;
+    border:2px solid red ;
+}
+.container{
+    background-color: pink;
+}
+.section-1{
+    background-color: blue;
+}
