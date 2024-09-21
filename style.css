@@ -1,52 +1,161 @@
 /* RESET RULES */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-/* header */
-.nav-container{
-    background-color: aqua;
-    padding: 10px 200px;
-    display: flex;
-    justify-content:space-between;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.link-list{
-    list-style-type: none;
-    display: flex;
-    gap: 5px;
-} 
+/* all body */
 section{
-    display: flex;
-    justify-content: center;
-    height: 450px;
+  padding: 30px 200px;
 }
-.container{
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
 }
-.col{
-    width: 500px;
+
+.row {
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
+
+.col {
+  width: 100%;
+}
+
+.col-33 {
+  width: calc(100% / 3);
+}
+
+.col-66 {
+  width: calc((100% / 3) * 2);
+}
+
+.col-16{
+  width: calc(100%/6);
+}
+
+/* header */
+
+.link-list {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+}
+
+.nav, .nav-footer {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.space-between {
+  max-width: 850px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+/* section 1 */
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.display-1 {
+  max-width: 80%;
+}
+
+/* section 2 - 4 */
+
+.section-2,
+.section-4 {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.display-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* section 3 - 6*/
+
+.section-3, .section-6 {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+
+/* section 5 */
+
+.section-5 {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+
+
+
+
 
 /* Debug */
-header{
-    background-color: aquamarine;
+header {
+  background-color: aquamarine;
 }
-section{
-    border: 2px solid red;
-    padding: 30px 200px;
+section {
+  border: 2px dashed black;
+
 }
-.nav-container{
-    background-color: blanchedalmond;
-    border:2px solid red ;
+.nav {
+  background-color: aquamarine;
+  border: 1px dashed black;
 }
-.container{
-    background-color: pink;
+.space-between {
+  background-color: rgb(245, 199, 35);
+  border: 2px dashed black;
 }
-.section-1{
-    background-color: blue;
+.section-1 {
+  background-color: blue;
+}
+.section-2 {
+  background-color: white;
+}
+.display-1 {
+  background-color: pink;
+}
+.container {
+  border: 1px dashed black;
+}
+.col {
+  border: 1px dashed black;
+}
+.col-33 {
+  background-color: pink;
+  border: 1px dashed black;
+}
+.col-66 {
+  background-color: aqua;
+  border: 1px dashed black;
+}
+.section-3,.section-5
+ {
+  background-color: gray;
+}
+.green-debug{
+  background-color: green;
+}
+
+.col-16{
+  background-color: rgb(59, 239, 215);
+  border: 1px dashed black;
+}
+.nav-footer, .section-6{
+  background-color: rgb(56, 55, 55);
 }
