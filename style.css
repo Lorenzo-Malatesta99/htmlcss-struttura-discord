@@ -6,7 +6,7 @@
 }
 
 /* all body */
-section{
+section {
   padding: 30px 200px;
 }
 
@@ -34,8 +34,8 @@ section{
   width: calc((100% / 3) * 2);
 }
 
-.col-16{
-  width: calc(100%/6);
+.col-16 {
+  width: calc(100% / 6);
 }
 
 /* header */
@@ -46,7 +46,8 @@ section{
   gap: 5px;
 }
 
-.nav, .nav-footer {
+.nav,
+.nav-footer {
   display: flex;
   padding: 10px;
   justify-content: center;
@@ -85,12 +86,12 @@ section{
 
 /* section 3 - 6*/
 
-.section-3, .section-6 {
+.section-3,
+.section-6 {
   display: flex;
   justify-content: center;
   height: 400px;
 }
-
 
 /* section 5 */
 
@@ -100,18 +101,12 @@ section{
   height: 700px;
 }
 
-
-
-
-
-
 /* Debug */
 header {
   background-color: aquamarine;
 }
 section {
   border: 2px dashed black;
-
 }
 .nav {
   background-color: aquamarine;
@@ -144,18 +139,19 @@ section {
   background-color: aqua;
   border: 1px dashed black;
 }
-.section-3,.section-5
- {
+.section-3,
+.section-5 {
   background-color: gray;
 }
-.green-debug{
+.green-debug {
   background-color: green;
 }
 
-.col-16{
+.col-16 {
   background-color: rgb(59, 239, 215);
   border: 1px dashed black;
 }
-.nav-footer, .section-6{
+.nav-footer,
+.section-6 {
   background-color: rgb(56, 55, 55);
 }
